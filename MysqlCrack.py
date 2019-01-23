@@ -2,7 +2,7 @@
 """
 MySQL爆破脚本
 用法：
-python MysqlCrack2.py -H [目标IP] --u [用户字典] --p [密码字典] -P [端口]
+python MysqlCrack.py -H [目标IP] --u [用户字典] --p [密码字典] -P [端口]
 """
 import re
 import socket
