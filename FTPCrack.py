@@ -31,7 +31,7 @@ def ftp_login(host, username, password):
     :return:None
     """
     try:
-        print "[-] Trying: " + username + "-" + password + "\n"
+        print "[-] Trying: " + username + "-" + password + " \n"
         ftp = ftplib.FTP(host)
         ftp.connect(host, 21, timeout=10)
         ftp.login(username, password)
