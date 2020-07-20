@@ -1,1 +1,0 @@
-Some Multithreading Study Demo
